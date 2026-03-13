@@ -1,5 +1,5 @@
 {
-  "name": "agent-commercial-contract",
+  "name": "openclaw-agent-commercial-contract",
   "version": "1.0.0",
   "description": "The Legal Layer for Agent-to-Agent Commerce - Smart contract framework for AI agent transactions",
   "main": "dist/index.js",
@@ -34,12 +34,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZhenRobotics/agent-commercial-contract.git"
+    "url": "https://github.com/ZhenRobotics/openclaw-agent-commercial-contract.git"
   },
   "bugs": {
-    "url": "https://github.com/ZhenRobotics/agent-commercial-contract/issues"
+    "url": "https://github.com/ZhenRobotics/openclaw-agent-commercial-contract/issues"
   },
-  "homepage": "https://github.com/ZhenRobotics/agent-commercial-contract#readme",
+  "homepage": "https://github.com/ZhenRobotics/openclaw-agent-commercial-contract#readme",
   "dependencies": {
     "axios": "^1.13.6",
     "chalk": "^4.1.2",
