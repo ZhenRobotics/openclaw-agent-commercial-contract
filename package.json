@@ -2,7 +2,8 @@
   "name": "agent-commercial-contract",
   "version": "1.0.0",
   "description": "The Legal Layer for Agent-to-Agent Commerce - Smart contract framework for AI agent transactions",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "bin": {
     "agent-contract": "./bin/cli.sh",
     "acc": "./bin/cli.sh"
@@ -11,6 +12,7 @@
     "start": "tsx src/cli/index.ts",
     "dev": "tsx watch src/cli/index.ts",
     "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "tsx tests/run-all.ts",
     "test:contract": "tsx tests/test-contract.ts",
     "test:escrow": "tsx tests/test-escrow.ts",
@@ -61,7 +63,7 @@
     "node": ">=18.0.0"
   },
   "files": [
-    "src/",
+    "dist/",
     "bin/",
     "templates/",
     "examples/",
