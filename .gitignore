@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Configuration
+config/platforms.json
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Data
+data/
+*.json
+!config/platforms.example.json
+!examples/*.json
+!package.json
+!tsconfig.json
+
+# Videos and media
+*.mp4
+*.mov
+*.avi
+*.flv
+*.jpg
+*.jpeg
+*.png
+!examples/*.jpg
+!examples/*.png
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup
+.backup/
+*.bak
+
+# Test
+coverage/
+.nyc_output/
+clawhub-upload.zip
+clawhub-upload/
+CLAWHUB_*.txt
+CLAWHUB_*.md

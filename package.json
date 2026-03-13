@@ -1,0 +1,74 @@
+{
+  "name": "agent-commercial-contract",
+  "version": "1.0.0",
+  "description": "The Legal Layer for Agent-to-Agent Commerce - Smart contract framework for AI agent transactions",
+  "main": "src/index.ts",
+  "bin": {
+    "agent-contract": "./bin/cli.sh",
+    "acc": "./bin/cli.sh"
+  },
+  "scripts": {
+    "start": "tsx src/cli/index.ts",
+    "dev": "tsx watch src/cli/index.ts",
+    "build": "tsc",
+    "test": "tsx tests/run-all.ts",
+    "test:contract": "tsx tests/test-contract.ts",
+    "test:escrow": "tsx tests/test-escrow.ts",
+    "test:identity": "tsx tests/test-identity.ts"
+  },
+  "keywords": [
+    "agent-commerce",
+    "smart-contract",
+    "ai-agent",
+    "legal-tech",
+    "escrow",
+    "digital-signature",
+    "agent-to-agent",
+    "commercial-contract",
+    "automated-commerce",
+    "openclaw"
+  ],
+  "author": "justin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZhenRobotics/agent-commercial-contract.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZhenRobotics/agent-commercial-contract/issues"
+  },
+  "homepage": "https://github.com/ZhenRobotics/agent-commercial-contract#readme",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.6.1",
+    "uuid": "^9.0.1",
+    "better-sqlite3": "^9.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "nanoid": "^3.3.7",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.13",
+    "@types/better-sqlite3": "^7.6.9",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/uuid": "^9.0.8",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "templates/",
+    "examples/",
+    "README.md",
+    "QUICKSTART.md",
+    "SKILL.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ]
+}

@@ -1,0 +1,70 @@
+# Development files
+node_modules/
+.git/
+.github/
+.vscode/
+.idea/
+
+# Test and output files
+out/
+*.log
+coverage/
+.nyc_output/
+
+# Documentation (keep only essential)
+OPTIMIZATION.md
+TEST-REPORT*.md
+ENGLISH-VERSION-UPDATE.md
+CLI-BUG-SOLUTION.md
+CLAWHUB-UPLOAD-GUIDE.md
+CLAWHUB_UPLOAD*.md
+INSTALLATION-TEST-REPORT.md
+PUBLISHING-PLATFORMS.md
+RELEASE-v*.md
+RELEASE_NOTES_v*.md
+BACKGROUND_VIDEO_FEATURE.md
+GITHUB_RELEASE_GUIDE.md
+优化完成总结.md
+发布说明.md
+
+# Build artifacts
+dist/
+build/
+
+# Environment and config
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Claude workspace
+.claude/
+
+# Git submodules
+openclaw-video/
+
+# Lock files (keep package-lock.json, exclude others)
+pnpm-lock.yaml
+yarn.lock
+
+# Legacy files
+DELIVERY.md
+INTEGRATION_COMPLETE.md
+PROJECT_SUMMARY.md
+
+# Test files and generated content
+public/*.mp3
+public/*.mp4
+public/backgrounds/
+audio/*.mp3
+scripts/tmp-*.txt
+scripts/pseudo-*.js
+load-env.sh
